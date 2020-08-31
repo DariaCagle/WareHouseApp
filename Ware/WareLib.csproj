@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WareStorage.cs" />
     <Compile Include="WareManager.cs" />
     <Compile Include="Ware.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

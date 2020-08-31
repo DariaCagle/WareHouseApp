@@ -13,7 +13,7 @@ namespace WareHouseApp
         {
             WareManager wareManager = new WareManager();
             wareManager.CheckWare();
-
+            Console.ReadKey();
         }
     }
 }
