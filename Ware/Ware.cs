@@ -25,8 +25,9 @@ namespace WareLib
                         return manufacturingDate.AddDays(10);
                     case "butter":
                         return manufacturingDate.AddDays(30);
+                    default:
+                        return manufacturingDate;
                 }
-                return ExpirationDate;
             }
         }
 
